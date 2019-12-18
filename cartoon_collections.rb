@@ -7,9 +7,10 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
+  test = []
   array.map! do |data| data.capitalize end
-  array.each do |data| data+"!" end
-  array
+  array.each do |data| test.push("#{data}!") end
+  test
 end
 
 def long_planeteer_calls# code an argument here
