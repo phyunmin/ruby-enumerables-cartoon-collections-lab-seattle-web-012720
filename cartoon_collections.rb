@@ -1,8 +1,8 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   str = ""
-  array.each_with_index do |data| puts "#{data}" end
-  return array
+  array.each_with_index do |item, index| puts "/#{index+1}.*#{data}/" end
+  str
 end
 
 def summon_captain_planet# code an argument here
