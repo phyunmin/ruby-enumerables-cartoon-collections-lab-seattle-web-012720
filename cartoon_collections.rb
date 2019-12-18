@@ -26,6 +26,7 @@ def find_the_cheese(ingredients)# code an argument here
   while i<cheese_types.length do
     if(ingredients.include?(cheese_types[i]))
       result = cheese_types[i]
+      break
     end
     i+=1
   end
