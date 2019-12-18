@@ -8,6 +8,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map { |data| "#{data}!"
+  array
 end
 
 def long_planeteer_calls# code an argument here
